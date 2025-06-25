@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(206, 217, 206);
+}
+h1{
+    color: rgb(69, 83, 69);
+    text-align: center;
+}
+h2{
+    color: rgb(219, 124, 0);
+}
+p{
+    font-size: 19px;
+    text-align: justify;
+    text-indent: 30px;
+    margin-bottom: 0px;
+}
+li{
+    margin-bottom: 5px;
+    font-size: 19px;
+}
+#img-hobbies{
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    display: block;
+    border-radius: 20px;
+    margin: 20px auto;
+    border: solid rgb(67, 80, 62);
+}
+table{
+    border-collapse: collapse;
+    margin: 20px auto;
+    max-width: 90%;
+    width: 600px;
+    background-color: rgb(253, 242, 229);
+}
+table img{
+    max-width: 80px;
+    height: auto;
+    border-radius: 10px;
+}
+th, td{
+    border: 3px solid rgb(67, 80, 62);
+    padding: 10px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    vertical-align: middle;
+}
+a{
+    color: rgb(69, 83, 69);
+}
+a:hover{
+    color: brown;
+}
+#mostrarMensagem {
+    margin-top: 20px; 
+}
+#mensagem{
+    font-size: 19px;
+    background-color: rgba(69, 83, 69, 0.145);
+    text-align: center;
+}

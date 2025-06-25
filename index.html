@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho - FDS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Felipe Oliveira de Sousa</h1>
+
+    <P>Meu nome é Felipe, tenho 26 anos e sou natural de São Mateus, no Maranhão. Sou formado em Farmácia, mas atualmente estou em um novo momento da minha vida acadêmica, cursando Análise e Desenvolvimento de Sistemas.
+    Estou no início dessa nova jornada, buscando aprender e entender melhor o universo da tecnologia e do desenvolvimento de software. Mesmo com os desafios naturais de começar em uma área totalmente nova, estou motivado e dedicado a absorver o máximo de conhecimento possível ao longo do curso.
+    Sempre fui uma pessoa curiosa e com vontade de aprender coisas novas, o que me ajuda a encarar essa fase com entusiasmo e disposição.</P>
+
+<!--Botão-->
+<button id="mostrarMensagem">Clique para ver uma mensagem!</button>
+
+<!--Mensagem-->
+<p id="mensagem"></p>
+
+    <h2>Principais hobbies:</h2>
+    
+    <ul>
+            <li>Jogos de tabuleiro</li>
+            <li>Leitura de livros</li>
+            <li>Ciclismo</li>
+    </ul>
+    
+    <img id="img-hobbies" src="imagens/img-hb.png" alt="Imagem-hobbies">
+
+    <h2>Países que eu gostaria de visitar:</h2>
+
+    <table>
+        <tr>
+            <th>Nome do País</th>
+            <th>Imagem</th>
+        </tr>
+        <tr>
+            <td>Japão</td>
+            <td><img src="imagens/japao.png" alt="Bandeira do Japão"></td>
+        </tr>
+        <tr>
+            <td>Inglaterra</td>
+            <td><img src="imagens/eng.png" alt="Bandeira da Inglaterra"></td>
+        </tr>
+        <tr>
+            <td>EUA</td>
+            <td><img src="imagens/eua.png" alt="Bandeira dos Estados Unidos da América"></td>
+        </tr>
+    </table>
+
+    <h2>Site que eu recomendo para conhecer alguns gameboards: <a target="_blank" href="https://ludopedia.com.br/">Ludopedia</a></h2>
+
+    <script>
+        const botao = document.getElementById('mostrarMensagem');
+        const mensagem = document.getElementById('mensagem');
+        const texto = "Muito obrigado por tirar um tempinho para conhecer um pouco mais sobre mim! Desejo tudo de bom pra você, que sua vida seja cheia de conquistas e momentos felizes!";
+        botao.addEventListener('click', function() {
+        mensagem.textContent = texto;});
+    </script>
+    
+</body>
+</html>
